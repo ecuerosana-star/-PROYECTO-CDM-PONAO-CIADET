@@ -41,8 +41,23 @@ def crear_usuario(usuario: Usuario):
     return {"mensaje": "Usuario agregado correctamente", "usuario": usuario }
 if __name__ == "__main__":
     uvicorn.run(app, host="0.0.0.0", port=8000)
+    canst responde = await fetch ( Url 
+                              method: "GET",
+                              const url = https://railway.com/project/4038e7da-7a10-4200-95ba-08157e1da8dd/service/edba3143-a5a6-4d69-9bfa-6a822eb971cd?environmentId=8cae78a2-b24c-481d-a90c-de2c3e6df51f
+
+                            headers : { 
+                                "Content-Type": "application/json"
+                                }
+                                if (response.ok) {
+                                  const data = await response.json();
+                                  console.log("Datos de usuarios:", data);
+                                } else {
+                                  console.error("Error http: " + response.status);
+                                }  console.log("Datos de usuarios:", data);
+                                const url = "http://localhost:8000/usuarios";
     } 
          console.log("Rosana chaguendo  trabajando en el proyecto individual");lo intente catch (error) 
 
 
      
+
